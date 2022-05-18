@@ -58,6 +58,8 @@ resource "aws_route_table" "private_RT" {
   tags = {
     Name = "Private Route Table"
   }
+}
+
 
 /*resource "aws_route_table_association" "prv_RT" {
  subnet_id = aws_subnet.private_subnet.id
@@ -77,5 +79,5 @@ resource "aws_route_table" "private_RT" {
     subnet_id     = aws_subnet.private_subnet.id
 
     }
-}
+
   
