@@ -7,9 +7,5 @@ module "vpc-vida" {
   tag = "vida"
 
    #enable_nat_gateway = true
-   #enable_internet_gateway = true
-
-  
+   #enable_internet_gateway = true  
 }
-
-
